@@ -1,0 +1,53 @@
+body {
+    background-color: #f0f0f0;
+    
+}
+
+.Harina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Arroz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Caraotas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, h3{
+    text-align: center;
+    font-size: 16px;
+}
+
+p{
+    text-align: center;
+}
+
+.Harina:hover{
+    background-color: aqua;
+}
+
+.Arroz:hover{
+    background-color: aqua;
+}
+
+.Caraotas:hover{
+    background-color: aqua;
+}
+
+img{
+    width: 20%;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 100px;
+    border: 10px solid gray;
+}

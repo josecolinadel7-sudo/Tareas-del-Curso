@@ -1,0 +1,51 @@
+
+:root{
+    --color-primario: #D65DB1;
+    --color-secundario: #F9F871;
+    --color-terciario: #FFC75F;
+    --color-texto: #2B2D42;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: var(--color-texto);
+}
+
+.Lista-Alumnos {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.Lista-Alumnos th, .Lista-Alumnos td{
+    padding: 10px 10px;
+    border: 2px solid #ddd;
+}
+
+.Lista-Alumnos th {
+    background-color: var(--color-secundario);
+    color: #2B2D42;
+}
+
+.Lista-Alumnos th:hover{
+    background-color: var(--color-terciario);
+    cursor: pointer;
+}
+
+.Lista-Alumnos tr:nth-child{
+    background-color: var(--color-terciario);
+}
+.Lista-Alumnos tr:hover{
+    background-color: var(--color-secundario);
+}
+
+div{
+    background-color: var(--color-terciario);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+div{
+    background-color: var(--color-texto);
+    color: wheat;
+}
