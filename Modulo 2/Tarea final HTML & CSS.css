@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&family=Gruppo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    background-color: #DB2763;
+}
+.A{
+    background-color: #0C0C0C;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.Dragon {
+    width: 250px;
+}
+
+.C ul.menu-list {
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    font-family: Gruppo, Arial, sans-serif;
+    font-size: 15px;
+    gap: 10px;
+}
+
+.C ul.menu-list li {
+    color: white;
+    font-family: Gruppo, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0 10px;
+    font-weight: 700;
+}
+
+.buscador {
+    flex: 1;
+    display: flex;
+    min-width: 150px;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Gruppo;
+    color: black;
+    border-radius: 10px;
+}
+.inversiones {
+    flex: 1;
+    display: flex;
+    min-width: 150px;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 16px;
+    background-color: #DB2763;
+    border-radius: 10px;  
+    color: white; 
+    margin-left: 20px;
+}
+.inversiones-container {
+    margin-left: auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.AA{
+    background-color: black;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+    font-family: Gruppo;
+    color: white;
+    margin-top: 5px;
+}
+
+.Tarjetas {
+    flex: 1;
+    display: flex;
+    min-width: 150px;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 16px;
+    background-color: black;
+    border-radius: 10px;  
+    color: white; 
+    font-family: Gruppo;
+    border: 3px solid #DB2763;
+    margin-top: -100px;
+    margin-right: -40px;
+
+}
+
+.D{
+    flex: 1;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.Tarjetas:hover{
+    background-color: #DB2763;
+}
+
+.Celular {
+    flex: 1;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(207, 46, 46);
+    margin-top: -20px;
+    margin-right: -40px;
+}
+.fotocelular {
+    margin-left: auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Beneficts {
+    flex: 1;
+    font-weight: bold;
+    display: flex;
+    min-width: 150px;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #DB2763;
+    border-radius: 10px;  
+    color: white; 
+    border: 3px solid #DB2763;
+    margin-top: 40px;
+    margin-right: 0px;
+}
+
+.Conglomerate {
+    flex: 1;
+    display: flex;
+    min-width: 150px;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #DB2763;
+    border-radius: 10px;  
+    color: white; 
+    border: 3px solid #DB2763;
+    margin-top: -53px;
+    margin-left: 170px;
+}
+
+.AB {
+    background-color: #0C0C0C;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+    margin-top: -20px;
+}
+
+.F1 {
+    width: 260px;
+    margin-top: 20px;
+}
+
+.F2 {
+    width: 260px;
+    margin-left: 60px;
+}
+
+.F3 {
+    width: 260px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.F4 {
+    width: 260px;
+    margin-left: 60px;
+}
+.H{
+    font-size: 32px;
+    color: #DB2763;
+    font-weight: bold;
+}
+
+.I{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -50px;
+}
+
+.F{
+    font-size: 23px;
+    font-weight: bold;
+}
