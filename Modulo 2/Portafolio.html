@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio-Personal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap" rel="stylesheet">
+</head>
+<body class="overflow-x-hidden font-Outfit leading-8 dark:bg-darkTheme">
+    <div class="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]">
+        <img src="header-bg-color.webp" alt="" class="w-full">
+    </div>
+
+
+    <nav class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
+        <img src="Jose-Logo.webp" alt="Logo" 
+        class="w-28 cursor-pointer mr-14">
+        <ul class="hidden md:flex items-center gap-6 lg:gap-8
+        rounded-full px-12 py-6 bg-white shadow-sm bg-opacity-50 font-Ovo">
+            <li><a href=#home>HOME</a></li>
+            <li><a href=#about>ABOUT ME</a></li>
+            <li><a href=#services>SERVICES</a></li>
+            <li><a href=#my-work>MY WORK</a></li>
+            <li><a href=#contact>CONTACT ME</a></li>
+    </ul>
+    <div class="flex items-left gap-4">
+    <a href="https://wa.me/+584129034040"
+    class="hidden lg:flex items-center gap-3 px-10 py-2.5 border
+    border-gray-500 rounded-full ml-4 font-Ovo">
+    Contact <img src="arrow-icon.webp" alt=""
+    class="w-9"></a>
+
+    <button class="block md:hidden ml-3" onclick="openMenu()">
+        <img src="menu-black.webp" alt="" class="w-8">
+    </button>
+    </div>
+
+<!-- mobile Menu -->
+    <ul id="sideMenu" class="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64
+    top-0 bottom-0 w-64 z-50 h-screen bg-blue-50 transition 
+    duration-100 font-Ovo">
+
+        <div class="absolute right-6 top-6" onclick="closeMenu()">
+            <img src="close-black.webp" alt=""class="w-5 
+            cursor-pointer">
+        </div>
+
+        <li><a href=#top onclick="closeMenu()">HOME</a></li>
+        <li><a href=#about onclick="closeMenu()">ABOUT ME</a></li>
+        <li><a href=#services onclick="closeMenu()">SERVICES</a></li>
+        <li><a href=#my-work onclick="closeMenu()">MY WORK</a></li>
+        <li><a href=#contact onclick="closeMenu()">CONTACT ME</a></li>
+    </ul>
+
+</nav>
+
+<!-- header -->
+
+<div id="home" class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+    <img src="profile.webp" alt="" class="rounded-full w-32">
+    <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">Hi!! I'm José David <img src="hand-icon.webp" alt="" class="w-6"></h3>
+    <h1 class="text-3xl sm:text-5xl lg:text-[66PX] font-Ovo">Desarrolador web Frontend con sede en VENEZUELA.</h1>
+    <p class="max-w-2xl mx:auto font-Ovo">Soy un Desarrolador web Frontend con experiencia en la creación de sitios web atractivos y funcionales.</p>
+    
+    <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
+        <a href="https://wa.me/+584129034040"
+        class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] 
+        to-[#da7d20] text-white flex items-center gap-2"
+        >contact me<img src="right-arrow-white.webp" alt="" class="w-4"></a>
+
+        <a href="./Currículum Jose David.pdf" download
+        class="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white"
+        >my resume<img src="ojo-icon.webp" alt="" class="w-6"></a>
+
+    </div>
+
+</div>
+
+<!-- about me -->
+
+<div id="about" class="w-full px-[12%] py-10 scroll-m-24">
+    <h4 class="text-center mb-2 text-lg font-Ovo">Introducción</h4>
+    <h2 class="text-center text-5xl font-Ovo">About me</h2>
+
+    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
+        <div class="max-w-max mx-auto relative">
+            <img src="user-image.webp" alt= "" class="w-64 sm:w-80 rounded-3xl max-w-none">
+        </div>
+        <div class="flex-1">
+            <p class="mb-10 max-w-2xl font-Ovo">Soy un Desarrolador web Frontend con 0 (Cero) dias de experiencia profesional en el campo. A lo largo de 
+                mi carrera he trabajado en varios proyectos que me han permitido desarrollar mis habilidades y aprender nuevas tecnologías.
+            </p>
+
+            <ul class="grid grid-cols-1 sm:grid-cols-auto gap-6 max-w-2xl">
+                <li class="border-[0.5px] border-gray-400 rounded-xl p-6
+                cursor-pointer hover:bg-[lighthover] hover:-translate-y-1 duration-500
+                hover:shadow-black">
+                    <img src="code-icon.webp" alt="" class="w-7 mt-3">
+                    <h3 class="my-4 font-semibold text-gray-700">Lenguajes</h3>
+                    <p class="text-gray-600 text-sm">HTML, CSS, JavaScript, Excel Hoja de Cálculo, Word</p>
+                </li>
+                <li class="border-[0.5px] border-gray-400 rounded-xl p-6
+                cursor-pointer hover:bg-[lighthover] hover:-translate-y-1 duration-500
+                hover:shadow-black">
+                    <img src="edu-icon.webp" alt="" class="w-7 mt-3">
+                    <h3 class="my-4 font-semibold text-gray-700">Educación</h3>
+                    <p class="text-gray-600 text-sm">Cursos realizados: </p>
+                    <p class="text-gray-600 text-sm">-Universidad Rafael Belloso Chacín; (URBE) - CISCO (CCNA I) </p>
+                    <p class="text-gray-600 text-sm">-Universidad Francisco de Miranda (UNEFM) TSU Enfermería (Actualidad) </p>
+                </li>
+                <li class="border-[0.5px] border-gray-400 rounded-xl p-6
+                cursor-pointer hover:bg-[lighthover] hover:-translate-y-1 duration-500
+                hover:shadow-black">
+                    <img src="project-icon.webp" alt="" class="w-7 mt-3">
+                    <h3 class="my-4 font-semibold text-gray-700">Projectos</h3>
+                    <p class="text-gray-600 text-sm">Aun no hay pero pronto tendre una lista larga</p>
+                </li>
+            </ul>
+            <h4 class="my-6 text-gray-700 font-Ovo">Herramientas de uso</h4>
+            <ul class="flex items-center gap-3 sm:gap-5">
+                <li class="flex items-center justify-center w-12 sm:w-14
+                aspect-square border border-gray-400 rounded-lg cursor-pointer
+                hover:-translate-y-1 duration-500">
+                    <img src="vscode-icon.webp" alt="" class="w-5 sm:w-7">
+                </li>
+
+                <li class="flex items-center justify-center w-12 sm:w-14
+                aspect-square border border-gray-400 rounded-lg cursor-pointer
+                hover:-translate-y-1 duration-500">
+                    <img src="excel-icon.webp" alt="" class="w-5 sm:w-7">
+                </li>
+
+                <li class="flex items-center justify-center w-12 sm:w-14
+                aspect-square border border-gray-400 rounded-lg cursor-pointer
+                hover:-translate-y-1 duration-500">
+                    <img src="word-icon.webp" alt="" class="w-5 sm:w-7">
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- SERVICES -->
+
+<div id="services" class="w-full px-[12%] py-10 scroll-mt-20">
+    <h4 class="text-center mb-2 text-lg font-Ovo">What I Offer</h4>
+    <h2 class="text-center text-5xl font-Ovo">Services</h2>
+    <p class="text-center text-gray-600 mt-4 font-Ovo">Ofrezco una variedad de servicios para ayudar a tu negocio a crecer y tener éxito en línea.</p>
+
+    <div class="grid grid-cols-auto md:grid-cols-auto lg:grid-cols-auto gap-10 mt-20">
+        <div class="border-[0.5px] border-gray-400 rounded-xl p-6
+        cursor-pointer hover:bg-[lighthover] hover:-translate-y-1 duration-500
+        hover:shadow-black">
+            <img src="web-design-icon.webp" alt="" class="w-12 mt-3">
+            <h3 class="my-4 font-semibold text-gray-700 text-lg">Web Design</h3>
+            <p class="text-gray-600 text-sm">Creación de diseños atractivos y funcionales para sitios web, utilizando herramientas como Wordpress.</p>
+        </div>
+
+        <div class="border-[0.5px] border-gray-400 rounded-xl p-6
+        cursor-pointer hover:bg-[lighthover] hover:-translate-y-1 duration-500
+        hover:shadow-black">
+            <img src="web-dev-icon.webp" alt="" class="w-12 mt-3">
+            <h3 class="my-4 font-semibold text-gray-700 text-lg">Web Development</h3>
+            <p class="text-gray-600 text-sm">Desarrollo de sitios web responsivos y optimizados, utilizando HTML, CSS y JavaScript.</p>
+        </div>
+
+        <div class="border-[0.5px] border-gray-400 rounded-xl p-6
+        cursor-pointer hover:bg-[lighthover] hover:-translate-y-1 duration-500
+        hover:shadow-black">
+            <img src="seo-icon.webp" alt="" class="w-12 mt-3">
+            <h3 class="my-4 font-semibold text-gray-700 text-lg">SEO Optimization</h3>
+            <p class="text-gray-600 text-sm">Implementación de estrategias de SEO para mejorar la visibilidad y el posicion
+    </div>
+
+</div>
+
+
+<!-- my work -->
+
+<div id="my-work" class="w-full px-[12%] py-10 scroll-mt-20">
+    <h4 class="text-center mb-2 text-lg font-Ovo">Mi Portafolio</h4>
+    <h2 class="text-center text-5xl font-Ovo">Proyectos</h2>
+    <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Aquí hay algunos de los proyectos en los que he trabajado recientemente.</p>
+
+     <div class="grid grid-cols-auto md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
+        <div class="border-[0.5px] border-gray-400 rounded-xl p-6
+        cursor-pointer hover:bg-[lighthover] hover:-translate-y-1 duration-500
+        hover:shadow-black">
+            <img src="project1.webp" alt="" class="w-12 mt-3">
+            <h3 class="my-4 font-semibold text-gray-700 text-lg">Proyecto 1</h3>
+            <p class="text-gray-600 text-sm">Aqui estara el primer proyecto de mi carrera como desarrollador web.</p>
+        </div>
+
+        <div class="border-[0.5px] border-gray-400 rounded-xl p-6
+        cursor-pointer hover:bg-[lighthover] hover:-translate-y-1 duration-500
+        hover:shadow-black">
+            <img src="project2.webp" alt="" class="w-12 mt-3">
+            <h3 class="my-4 font-semibold text-gray-700 text-lg">Proyecto 2</h3>
+            <p class="text-gray-600 text-sm">Aqui estara el segundo proyecto de mi carrera como desarrollador web.</p>
+        </div>
+
+        <div class="border-[0.5px] border-gray-400 rounded-xl p-6
+        cursor-pointer hover:bg-[lighthover] hover:-translate-y-1 duration-500
+        hover:shadow-black">
+            <img src="project3.webp" alt="" class="w-12 mt-3">
+            <h3 class="my-4 font-semibold text-gray-700 text-lg">Proyecto 3</h3>
+            <p class="text-gray-600 text-sm">Aqui estara el tercer proyecto de mi carrera como desarrollador web.</p>
+        </div>
+    </div>
+    <a href="#" class="w-max flex items-center justify-center gap-2 border-[0.5px] border-gray-700 rounded-full
+    py-3 px-10 mx-auto my-20 hover:bg-[lighthover] duration-500 text-blue-500">Ver más proyectos</a>
+
+</div>
+
+<!-- contact -->
+
+<div id="contact" class="w-full px-[12%] py-10 scroll-mt-20">
+    <h4 class="text-center mb-2 text-lg font-Ovo">Get In Touch</h4>
+    <h2 class="text-center text-5xl font-Ovo">Contact Me</h2>
+    <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Si estás interesado en trabajar conmigo o simplemente quieres saludar, no dudes en enviarme un mensaje.</p>
+
+    <form action="#" class="max-w-2xl mx-auto flex flex-col gap-6">
+        <div class="grid grid-cols-auto gap-6 mt-10 mb-8">
+            <input type="text" placeholder="Your Name" class="flex-1 border border-gray-400 rounded-full px-6 py-3
+            focus:outline-none focus:border-blue-500">
+            <input type="email" placeholder="Your Email" class="flex-1 border border-gray-400 rounded-full px-6 py-3
+            focus:outline-none focus:border-blue-500">
+        </div>
+        <input type="text" placeholder="Subject" class="w-full border border-gray-400 rounded-full px-6 py-3
+        focus:outline-none focus:border-blue-500">
+        <textarea rows="6" placeholder="Message" class="w-full border border-gray-400 rounded-xl px-6 py-3
+        focus:outline-none focus:border-blue-500"></textarea>
+        <a href="#" class="w-max bg-gradient-to-r from-[#b820e6] to-[#da7d20]
+        text-white px-10 py-3 rounded-full hover:shadow-black duration-500">Send Message</a>
+    </form>
+
+
+<!-- footer o Pie de pagina -->
+
+<div class="mt-20">
+    <div class="text-center">
+        <img src="Jose-Logo.webp" alt="" class="w-36 mx-auto mb-2">
+        <div class="flex items-center justify-center gap-3 text-gray-600">
+            <img src="mail.icon.webp" alt="" class="w-12">
+            josecolinadel7@gmail.com
+        </div>
+    </div>
+    <div class="text-center sm:flex items-center justify-center border-t border-gray-400 mx-[10%] mt-12 pt-6">
+        <p>© 2023 Jose Colin. Todos los derechos reservados.</p>
+        <ul class="flex items-center gap-4 justify-center mt-4 sm:mt-0 text-gray-600">
+            <li><a href="https://instagram.com/jose_david_019">INSTAGRAM</a></li>
+            <li><a href="https://www.facebook.com/share/1AgZtKw5S6/">FACEBOOK</a></li>
+            <li><a href="http://t.me/Jose_David019">TELEGRAM</a></li>
+            <li><a href="https://github.com/josecolinadel7-sudo">GITHUB</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
